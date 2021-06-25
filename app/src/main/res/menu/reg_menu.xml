@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_splash"
+        android:title="menu"
+        app:showAsAction="always">
+
+        <item android:id="@+id/nav_profile"
+            android:title="My Profile"
+            android:icon="@drawable/ic_splash"/>
+
+        <item android:id="@+id/nav_topics"
+            android:title="View Topics"
+            android:icon="@drawable/ic_splash"/>
+
+        <item android:title="My Notes"
+            android:id="@+id/nav_notes"/>
+
+        <item android:id="@+id/nav_FAQ"
+            android:title="Help"
+            android:icon="@drawable/ic_splash"/>
+
+        <item android:id="@+id/nav_logout"
+            android:title="Log Out"
+            android:icon="@drawable/ic_splash"/>
+
+    </item>
+
+</menu>

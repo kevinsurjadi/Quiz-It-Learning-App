@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModeSelectActivity"><![CDATA[
+
+    =======
+        android:id="@+id/btn_ExtraResources"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Extra Resources"
+>>>>>>> 41f32d3f2f33da50f2f262df42adba83f03de576
+        app:backgroundTint="#58B9CC"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_quiz"
+        app:layout_constraintStart_toStartOf="@+id/btn_learn"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quiz" />
+
+    ]]>
+
+    <Button
+        android:id="@+id/btn_quiz"
+        android:layout_width="170dp"
+        android:layout_height="201dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableTop="@drawable/quiz"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="35dp"
+        android:text="quiz"
+        app:backgroundTint="#58B9CC"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_learn" />
+
+    <Button
+        android:id="@+id/btn_learn"
+        android:layout_width="170dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="92dp"
+        android:drawableTop="@drawable/learn"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="bottom|center|center_horizontal"
+        android:paddingBottom="35dp"
+        android:shadowColor="#040404"
+        android:text="learn"
+        android:textIsSelectable="false"
+        app:backgroundTint="#58B9CC"
+        app:cornerRadius="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+        app:rippleColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="306dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center_horizontal"
+        android:text="Topic Description"
+        android:textColor="#090909"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:text="Learn more"
+        app:cornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quiz" />
+
+    <ImageView
+        android:id="@+id/btnBackSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924070700159",
+    "project_id": "gamified-learning-c0cf3",
+    "storage_bucket": "gamified-learning-c0cf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924070700159:android:304096ba792b3f474b4b4a",
+        "android_client_info": {
+          "package_name": "au.edu.unsw.infs3634.gamifiedlearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924070700159-v1peh6jvumirhk9v35kbbcphkgmefq4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhvqpQZDJnd9z-WUv65i0xQC6p-1Vzp88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924070700159-v1peh6jvumirhk9v35kbbcphkgmefq4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

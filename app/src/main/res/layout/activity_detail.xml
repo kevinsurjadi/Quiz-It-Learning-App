@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tvDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:text="Difficulty"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEasy"
+        android:layout_width="191dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="Easy"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#58B9CC"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDifficulty" />
+
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="191dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="Medium"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#58B9CC"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEasy" />
+
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_width="191dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="Hard"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#58B9CC"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMedium" />
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
